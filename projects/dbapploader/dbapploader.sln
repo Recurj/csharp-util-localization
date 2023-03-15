@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJToolsApp", "..\..\tools\app\RJToolsApp.csproj", "{F9568D75-A04C-4F43-92DB-9786E02DFE19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exe", "Exe", "{04ECDC5E-D3CE-418D-800F-C11B5A0961CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{FFE2B4B0-4FA2-4C37-8CFB-A822A2BF4C08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJToolsDbSqlite", "..\..\tools\db\dbsqlite\RJToolsDbSqlite.csproj", "{15251214-BD35-4FC7-9FCB-D0B9FE677209}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJToolsAppLog", "..\..\tools\appext\logs\RJToolsAppLog.csproj", "{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RJToolsDb", "..\..\tools\db\tools\RJToolsDb.csproj", "{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dbappguiloader", "dbappguiloader\dbappguiloader.csproj", "{66980BC9-033C-43F7-9DB7-AD7B5209B3E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9568D75-A04C-4F43-92DB-9786E02DFE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9568D75-A04C-4F43-92DB-9786E02DFE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9568D75-A04C-4F43-92DB-9786E02DFE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9568D75-A04C-4F43-92DB-9786E02DFE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15251214-BD35-4FC7-9FCB-D0B9FE677209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15251214-BD35-4FC7-9FCB-D0B9FE677209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15251214-BD35-4FC7-9FCB-D0B9FE677209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15251214-BD35-4FC7-9FCB-D0B9FE677209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66980BC9-033C-43F7-9DB7-AD7B5209B3E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66980BC9-033C-43F7-9DB7-AD7B5209B3E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66980BC9-033C-43F7-9DB7-AD7B5209B3E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66980BC9-033C-43F7-9DB7-AD7B5209B3E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9568D75-A04C-4F43-92DB-9786E02DFE19} = {FFE2B4B0-4FA2-4C37-8CFB-A822A2BF4C08}
+		{15251214-BD35-4FC7-9FCB-D0B9FE677209} = {FFE2B4B0-4FA2-4C37-8CFB-A822A2BF4C08}
+		{27A4B4EC-BDA9-4DBF-8C16-30314EC0D5C2} = {FFE2B4B0-4FA2-4C37-8CFB-A822A2BF4C08}
+		{2FD4BFBB-1F15-484E-AF70-88C8BEF3C815} = {FFE2B4B0-4FA2-4C37-8CFB-A822A2BF4C08}
+		{66980BC9-033C-43F7-9DB7-AD7B5209B3E4} = {04ECDC5E-D3CE-418D-800F-C11B5A0961CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {416247F0-0A8B-4FCA-AC64-8AC0CC45540B}
+	EndGlobalSection
+EndGlobal

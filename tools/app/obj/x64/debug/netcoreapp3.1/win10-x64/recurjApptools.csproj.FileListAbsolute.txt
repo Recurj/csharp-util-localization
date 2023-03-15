@@ -1,0 +1,7 @@
+D:\development\c#\tools\apptools\bin\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.deps.json
+D:\development\c#\tools\apptools\bin\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.dll
+D:\development\c#\tools\apptools\bin\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.pdb
+D:\development\c#\tools\apptools\obj\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.AssemblyInfoInputs.cache
+D:\development\c#\tools\apptools\obj\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.AssemblyInfo.cs
+D:\development\c#\tools\apptools\obj\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.dll
+D:\development\c#\tools\apptools\obj\x64\Debug\netcoreapp3.1\win10-x64\recurjApptools.pdb

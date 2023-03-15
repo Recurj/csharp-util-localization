@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+		<RuntimeIdentifier>win10-x64</RuntimeIdentifier>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<OutputPath>E:\.Net\bin\$(Configuration)</OutputPath>
+		<IntermediateOutputPath>E:\.Net\obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<OutputPath>E:\.Net\bin\$(Configuration)</OutputPath>
+		<IntermediateOutputPath>E:\.Net\obj\$(Configuration)\$(MSBuildProjectName)\</IntermediateOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\app\RJToolsApp.csproj" />
+	</ItemGroup>
+
+</Project>

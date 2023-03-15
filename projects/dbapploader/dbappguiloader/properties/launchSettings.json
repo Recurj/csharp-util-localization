@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "LibraryImport": {
+      "commandName": "Project",
+      "commandLineArgs": "-work E:\\.Net\\run -db E:\\.Net\\import\\winui\\run24admin\\resources.db -load E:\\.Net\\import\\winui\\run24admin\\gui\\messages.xml",
+      "workingDirectory": "E:\\.Net\\bin\\Debug\\net6.0\\win10-x64"
+    }
+  }
+}
